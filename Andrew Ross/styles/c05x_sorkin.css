@@ -1,0 +1,87 @@
+cite.align{
+    margin-top: -20px;
+}
+
+html{
+    background-color: yellow;
+    margin-left:350px;
+}
+
+
+body {
+    
+    border-color: blue;
+    border: 15px double blue;
+    
+    background-color: white;
+    
+    padding: 20px;
+    margin:50px;
+    
+    width:650px;
+    
+}
+
+
+
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+p cite {
+    color:blue;
+    text-align: right;
+    display: block;
+    font-style: normal;
+    padding-bottom: .75em;
+    
+}
+
+
+blockquote{
+    margin-top: -15px;
+    margin-left: -1px;
+}
+
+
+h1{
+    font-size: 150%;
+}
+
+
+h2{
+    font-size: 125%;
+}
+
+
+h3{
+    font-size: 115%;
+}
+
+ul{
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+img{
+    float: left;
+    padding-right: 25px;
+}
+
+
+footer{
+    border-top: 4px solid blue;
+    margin-top: 30px;
+    
+}
+
+
+footer p{
+    margin-bottom: -5px;
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+}

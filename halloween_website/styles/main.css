@@ -1,0 +1,185 @@
+/*ELEMENTS///////////////////////////////////*/
+html{
+    margin: 100px;
+    background-image: url(../images/bats.gif);
+}
+
+header img{
+    float: left;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-left:20px;
+}
+
+header h3{
+    margin-top: -30px;
+}
+
+header{
+    margin-top: -50px;
+}
+
+header h2{
+    margin-top: -1px;
+    font-size: 300%;
+        
+}
+
+body{
+    border-style: solid;
+    padding: 50px;
+    box-shadow: 1px 1px 10px 10px;
+    max-width 800px;
+    margin: center;
+    background-color: white;
+}
+
+section h1{
+    margin-right: 550px;
+}
+
+
+section a{
+   color: orange;
+    font-size: 120%;
+    
+
+}
+
+ul li{
+    padding-bottom: 35px;
+}
+
+ul.sidenav li a{
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+section h3{
+    margin-left: 150px;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 90%;
+    margin-bottom: -50px;
+    margin-top: 50px;
+}
+/*ELEMENTS/////////////////////////////////*/
+
+
+
+/*CLASSES/////////////////////////////////*/
+
+/*Horizontal Navigation*/
+ul.hornav{
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+.hornav li {
+    display: block;
+    display: inline;
+    
+}
+
+.hornav li a{
+    color: white;
+    font-size: 120%;
+    margin-right: 90px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+
+.selh:hover{
+    color: gray;
+    background-color: lightgray;
+}
+
+.active{
+    color: orange;
+}
+/*Horizontal Navigation*/
+
+
+/*SubNavigation*/
+.hornav li.subnav ul{
+    background-color: black;
+    margin-left: 550px;
+    position: absolute;
+    display: none;
+    
+}
+
+.hornav li.subnav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.hornav li.subnav:hover ul{
+    display: block;
+}
+/*SubNavigation*/
+
+
+
+.roman{
+    font-family: sans-serif;
+}
+
+.enlarge:first-letter{
+    font-size: 200%;
+}
+
+
+
+.make_top_bor{
+    border-style: solid;
+    margin-left: -50px;
+    margin-right: -50px;
+    background-image: linear-gradient(45deg,white,orange 75%,black);
+}
+
+.make_bottom_bor{
+    border-style: solid;
+    margin-left: -50px;
+    margin-right: -50px;
+    background-image: linear-gradient(45deg,black,orange 25% ,white);
+}
+
+/*Side Navigation*/
+.sels:hover{
+    color: green;
+}
+
+.sidenav{
+    width: 160px;
+    float: left;
+    
+    margin-left: -50px;
+    margin-bottom: 555px;
+    margin-right: 20px;
+    padding-top: 20px;
+    
+}
+
+.box{    
+    display: block;
+    border-style: solid;
+    background-color: orange;
+    padding: 10px;
+    
+}
+/*Side Navigation*/
+/*CLASSES/////////////////////////////*/
+
